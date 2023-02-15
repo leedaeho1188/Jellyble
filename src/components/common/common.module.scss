@@ -1,0 +1,10 @@
+@import '@/styles/utils.module.scss';
+
+
+.header-container {
+  @include flexbox(space-between);
+  @include desktop {
+    padding: 8px 12px;
+  }
+  background-color: aqua;
+}
